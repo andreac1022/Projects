@@ -1,0 +1,115 @@
+.nav {
+    text-align: center;
+    font-family: "Benton Sans", sans-serif;
+    color: transparent;
+    border: none;
+    width: 1180px;
+    height: 100px;
+    background-color: aliceblue;
+    margin: 0 auto;
+}
+
+.button_1:hover {
+    background-color: darkred;
+    color: white;
+}
+
+.button_2:hover {
+    background-color: darkred;
+    color: white;
+}
+
+.button_3:hover {
+    background-color: darkred;
+    color: white;
+}
+
+.button_4:hover {
+    background-color: darkred;
+    color: white;
+}
+
+.button_5:hover {
+    background-color: darkred;
+    color: white;
+}
+.button_1 {
+    padding: 10px 24px; font-size: 15px;
+    border-radius: 2px;
+    border: 2px solid darkred;
+}
+
+.button_2 {
+    padding: 10px 24px; font-size: 15px;
+    border-radius: 2px;
+    border: 2px solid darkred;
+}
+
+.button_3 {
+    padding: 10px 24px; font-size: 15px;
+    border-radius: 2px;
+    border: 2px solid darkred;
+}
+
+.button_4 {
+    padding: 10px 24px; font-size: 15px;
+    border-radius: 2px;
+    border: 2px solid darkred;
+}
+
+.button_5 {
+    padding: 10px 24px; font-size: 15px;
+    border-radius: 2px;
+    border: 2px solid darkred;
+}
+
+.button_6 {
+    padding: 10px 24px; font-size: 15px;
+    border-radius: 2px;
+    border: 2px solid darkred;
+    opacity: 50%;
+}
+
+.Facebook {
+    padding: 5px 20px; font-size: 10px;
+    border-radius: 2px;
+    border: 2px solid darkred;
+}
+
+.Instagram {
+    padding: 5px 20px; font-size: 10px;
+    border-radius: 2px;
+    border: 2px solid darkred;
+}
+
+.Twitter {
+    padding: 5px 20px; font-size: 10px;
+    border-radius: 2px;
+    border: 2px solid darkred;
+}
+
+.Foursquare {
+    padding: 5px 20px; font-size: 10px;
+    border-radius: 2px;
+    border: 2px solid darkred;
+}
+
+.Facebook:hover {
+    background-color:darkred;
+    color: white;
+}
+
+.Instagram:hover {
+    background-color: darkred;
+    color: white;
+}
+
+.Twitter:hover {
+    background-color: darkred;
+    color: white;
+}
+
+.Foursquare:hover {
+    background-color: darkred;
+    color: white;
+}
