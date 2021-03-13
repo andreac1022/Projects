@@ -1,0 +1,215 @@
+.border {
+    height: 600px;
+    width: 402px;
+    border: solid black 2px;
+    background-size: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: whitesmoke;
+}
+
+.title {
+    position: absolute;
+    top: 0;
+    width: 402px;
+    height: 100px;
+    text-align: center;
+    font-family: 'Benne', serif;
+    font-size: 30px;
+    font-variant: all-small-caps;
+    letter-spacing: 5px;
+    filter: blur(0px);
+    transition: filter 0.5s;
+}
+
+.title:hover {
+    filter: blur(5px);
+    transition: filter 0.5s;
+}
+
+.author {
+    position: absolute;
+    bottom: 0;
+    width: 402px;
+    height: 15px;
+    text-align: center;
+    font-family: 'Benne', serif;
+    font-variant: all-small-caps;
+    font-size: 2em;
+    letter-spacing: 5px;
+}
+
+.teardrop_1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 0 50% 50% 50%;
+    /*border: 3px solid midnightblue;*/
+    transform: rotate(45deg);
+    margin: 200px 0 0 50px;
+    background: midnightblue;
+    position: relative;
+    animation: teardrop_1_move 5s infinite;
+}
+
+@keyframes teardrop_1_move {
+    0% {top: 0; background: midnightblue }
+    /*25% { top: -150px; left: 0px; }*/
+    50% { top: 500px; background: whitesmoke }
+    100% { top: 525px; background: white }
+}
+
+.teardrop_2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 0 50% 50% 50%;
+    transform: rotate(45deg);
+    margin: -140px 0 0 250px;
+    position: relative;
+    animation: teardrop_2_move 7s infinite;
+}
+
+@keyframes teardrop_2_move {
+    0% {top: 0; background: midnightblue }
+    50% { top: 500px; background: whitesmoke }
+    100% { top: 525px; background: white }
+}
+
+.teardrop_3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 0 50% 50% 50%;
+    border: 3px solid black;
+    transform: rotate(45deg);
+    margin: 100px 0 0 50px;
+    background: midnightblue;
+    position: absolute;
+}
+
+.teardrop_4 {
+    width: 100px;
+    height: 100px;
+    border-radius: 0 50% 50% 50%;
+    border: 3px solid black;
+    transform: rotate(45deg);
+    margin: 100px 0 0 250px;
+    background: midnightblue;
+    position: absolute;
+}
+
+.teardrop_5 {
+    width: 100px;
+    height: 100px;
+    border-radius: 0 50% 50% 50%;
+    /*border: 3px solid black;*/
+    transform: rotate(45deg);
+    margin: -20px 0 0 160px;
+    background: midnightblue;
+    position: relative;
+    animation: rotate 9s infinite linear;
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); background: midnightblue}
+    100% { transform: rotate(180deg); background: darkred }
+}
+
+.eye_1 {
+    width: 100px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    transform: translate(-50%,-50%) rotate(45deg);
+    border-radius: 75% 0;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.iris_1 {
+    width:72px;
+    height: 72px;
+    background: #222f3e;
+    border-radius: 50%;
+    /*border: 30px solid #ef888c;*/
+    border: 30px solid lightsteelblue;
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    transform: translate(-50%,-50%);
+}
+
+.lid_1 {
+    width: 300px;
+    height: 160px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    /*background: red;*/
+    transform: translate(-50%,-50%) rotate(-45deg);
+    z-index: 1;
+}
+
+.lid_1 span {
+    display: block;
+    width: 100%;
+    height: 0;
+    background: midnightblue;
+    border-radius: 0 0 60% 60%;
+    transition: 0.4s all;
+}
+
+.eye_1:hover .lid_1 span {
+    height: 100%;
+}
+
+.eye_2 {
+    width: 100px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    transform: translate(-50%,-50%) rotate(45deg);
+    border-radius: 75% 0;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.iris_2 {
+    width:72px;
+    height: 72px;
+    background: #222f3e;
+    border-radius: 50%;
+    border: 30px solid lightsteelblue;
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    transform: translate(-50%,-50%);
+}
+
+.lid_2 {
+    width: 300px;
+    height: 160px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    /*background: red;*/
+    transform: translate(-50%,-50%) rotate(-45deg);
+    z-index: 1;
+}
+
+.lid_2 span {
+    display: block;
+    width: 100%;
+    height: 0;
+    background: midnightblue;
+    border-radius: 0 0 60% 60%;
+    transition: 0.4s all;
+}
+
+.eye_2:hover .lid_2 span {
+    height: 100%;
+}
